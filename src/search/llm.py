@@ -167,7 +167,7 @@ def _call_gemini(prompt, model, api_key, max_tokens, logger):
         json={
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {
-                "temperature": 1.0,
+                "temperature": 1.3,
                 "maxOutputTokens": max_tokens,
             },
         },
